@@ -11,6 +11,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoginSD {
 
+
+    @Given("^I open browser$")
+    public void i_open_browser() throws Throwable {
+
+        System.out.println("=================>> I open browser >>>");
+    }
+
+
     WebDriver driver;
 
     @Given("Login page is opned")
